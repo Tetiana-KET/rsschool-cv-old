@@ -23,10 +23,13 @@ I have been in the trade for 20 years, so I am organized, sociable, able to cont
 ## Code Example
 
 ```
-const height = 40,
-    width = 70;
-let result = height * width;
-console.log(result);
+function highAndLow(numbers){
+    let arr = numbers.split(' ');
+    let newArr = [];
+    newArr.push(Math.max(...arr));
+    newArr.push(Math.min(...arr));
+    return newArr.join(' ');
+};
 ```
 
 ## Work experience
@@ -35,10 +38,11 @@ _Don't have it yet_
 
 ## Education
 
-* ___Chernivtsi National University named after Yuriy Fedkovych___
-* ___Bukovina State Institute of Finance and Economics___
-* ___HTML/CSS course___ from [GoIT](https://goit.ua/)   (1 week introduction)
-* ___JAVASCRIPT course___ from [WayUp](https://wayup.in/) (1 week introduction)
+
+- **_Chernivtsi National University named after Yuriy Fedkovych_**
+- **_Bukovina State Institute of Finance and Economics_**
+- **_JS / FRONT-END. STAGE 0_** from [RS School](https://rs.school/)
+
 
 ## English
 
